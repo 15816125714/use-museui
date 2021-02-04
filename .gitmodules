@@ -1,0 +1,3 @@
+[submodule "muse-ui"]
+	path = muse-ui
+	url = https://github.com/15816125714/muse-ui.git
