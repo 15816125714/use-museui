@@ -18,6 +18,7 @@ module.exports = {
       .set('assets', resolve('src/assets/'))
       .set('#', resolve('src/components/'))
       .set('api', resolve('src/api'))
+      .set('muse-ui', resolve('muse-ui/src'))
 
     config.module
       .rule('images')
