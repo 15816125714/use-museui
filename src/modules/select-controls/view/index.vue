@@ -5,13 +5,20 @@
         Flex
       </div>
     </div>
-    <mu-radio v-model="tag" label="vue" value="vue" color="red" />
-    <br>
-    <br>
+    <mu-radio v-model="tag" label="vue" value="vue" color="red" style="margin-right: 24px" /> 
     <mu-radio v-model="tag" label="react" value="react" />
     <br>
     <br>
-    <mu-checkbox v-model="time" label="2014" value="2014" />
+    <mu-radio border v-model="tag" label="vue" value="vue" color="red" /> 
+    <mu-radio border v-model="tag" label="react" value="react" />
+    
+    <br>
+    <br>
+    <mu-checkbox v-model="time" label="2016" value="2016" style="margin-right: 24px" />
+    <mu-checkbox color="red" v-model="time" label="2017" value="2017" style="margin-right: 24px" />
+    <mu-checkbox disabled v-model="time" label="2018" value="2018" />
+    <br>
+    <br>
     <mu-checkbox border v-model="time" label="2016" value="2016" />
     <mu-checkbox border color="red" v-model="time" label="2017" value="2017" />
     <mu-checkbox border disabled v-model="time" label="2018" value="2018" />
